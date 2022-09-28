@@ -6,7 +6,7 @@ streamlit.header('Menú de desayuno')
 streamlit.text('🥣 Omega 3 y avena con arándanos')
 streamlit.text('🥗 Batido de col rizada, espinacas y rúcula')
 streamlit.text('🐔 Huevo de gallinas camperas hervidas')
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+streamlit.text('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 
 import pandas
