@@ -44,3 +44,5 @@ my_cur.execute("select *from PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST")
 my_data_rows = my_cur.fetchall()
 streamlit.header("the fruits load list contains:")
 streamlit.dataframe(my_data_rows)
+
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
